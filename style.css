@@ -1,0 +1,223 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+ }
+ .container {
+   width : 1362px;
+   margin: 0 auto;
+ }
+
+  
+
+
+
+
+
+ .background-header {
+  background-color: #5a5a5a;
+  position: fixed;
+  width: 100%
+
+ }
+
+
+.for-nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 23px;
+}
+
+
+.background-section1 {
+  background-color: black;
+}
+
+
+
+
+.section1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* .section1 img {
+  width: 400px;
+} */
+
+
+
+
+.background-section2 {
+  background-color: #5a5a5a;
+  
+}
+
+
+
+
+
+
+p{
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.section2 p {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  padding: 20px;
+} 
+
+
+
+
+.background-section3{
+  background-color:black
+}
+
+.section3{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .section3 img{
+  width: 400px;
+} */
+
+
+
+
+.background-section4 {
+  background-color: #5a5a5a;
+}
+
+
+
+
+
+.background-section5{
+  background-color: black;
+}
+
+
+.section5{
+  display: flex;
+  justify-content:space-around;
+}
+
+
+
+
+/* .section5 img{
+  width: 400px;
+
+} */
+ 
+
+
+
+
+
+.btn{  
+ margin: 200px;
+ padding: 40px;
+ border: none;
+ color: white;
+ background-color:rgb(22, 22, 222);
+ font-size: 20px;
+}
+
+
+
+
+
+.background-section6  {
+  background-color: #5a5a5a;
+  
+}
+
+.section6 p {
+  margin: 0;
+}
+
+
+
+
+.background-section7{
+  background-color: black;
+}
+
+
+
+
+
+.section7{
+  display: flex;
+  justify-content:space-around;
+}
+
+
+
+
+/* 
+.section7 img{
+  width: 400px;
+
+} */
+ 
+
+
+
+
+
+.background-section8 {
+  background-color: #5a5a5a;
+  
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media (max-width:1000px) {
+  .section5 { display: grid;
+ grid-template-columns: 1fr;
+  }
+  .section7
+    { display: grid;
+      grid-template-columns: 1fr;
+  }
+  img {
+    width: 93vw;
+  }
+  .btn {
+    margin: 0px;
+  }
+ 
+}
+
+@media (max-width:385px) {
+
+}
